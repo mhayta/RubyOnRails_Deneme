@@ -1,3 +1,4 @@
 class Medium < ActiveRecord::Base
-  mount_uploader :medium, MediumUploader
+  has_many :post
+  mount_uploader :media_file, MediumUploader
 end
