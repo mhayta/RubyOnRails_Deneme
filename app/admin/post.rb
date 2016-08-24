@@ -9,6 +9,6 @@ ActiveAdmin.register Post do
 #     f.actions
 #   end
 
-permit_params :tittle, :content, :category_id
+permit_params :tittle, :content, :category_id, :image_url
 
 end

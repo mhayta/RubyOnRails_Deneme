@@ -1,14 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @category.name %>
+  <strong><%= @category.name %></strong> ( <%= @category.slug %> )
 </p>
 
-<p>
-  <strong>Slug:</strong>
-  <%= @category.slug %>
-</p>
-
-
-<%= link_to 'Back', categories_path %>
+<%= render 'posts/list', obj: @category.post %>
