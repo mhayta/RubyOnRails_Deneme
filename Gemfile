@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2.6'
+gem 'rails', '~> 5.0.0.1'
 
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'devise'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
